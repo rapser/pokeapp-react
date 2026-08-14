@@ -2,6 +2,15 @@
 
 App React Native (CLI, TypeScript) que consume [PokéAPI](https://pokeapi.co/) para mostrar un listado paginado de Pokémon y su detalle. Es la réplica funcional y arquitectónica de la versión iOS del mismo challenge ([pokeapp](https://github.com/rapser/pokeapp)): misma Clean Architecture en 4 capas, mismo patrón MVVM, mismo comportamiento de paginación/cache/errores — implementado con el stack que suelen pedir apps móviles enterprise/fintech (React Native CLI puro, sin Expo, para tener control total de los proyectos nativos).
 
+## Capturas
+
+Misma UI y mismo comportamiento en ambas plataformas, con las convenciones nativas de cada una (barra de navegación, botón de retroceso, tipografía del sistema).
+
+| | iOS | Android |
+|---|---|---|
+| **Listado** | <img src="docs/screenshots/ios-list.png" width="260" alt="Listado de Pokémon en iOS" /> | <img src="docs/screenshots/android-list.png" width="260" alt="Listado de Pokémon en Android" /> |
+| **Detalle** | <img src="docs/screenshots/ios-detail.png" width="260" alt="Detalle de Pokémon en iOS" /> | <img src="docs/screenshots/android-detail.png" width="260" alt="Detalle de Pokémon en Android" /> |
+
 ## Requisitos
 
 - Node.js 22+ y npm.
